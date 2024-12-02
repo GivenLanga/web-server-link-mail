@@ -19,14 +19,19 @@
     </nav>
     <div class="back-style">
       <h1>Anonymous Report</h1>
-      <!-- <form action="action.php"></form> -->
-      <div class="text-box">
-        <textarea
-          class="text-area"
-          placeholder="Enter your message..."
-        ></textarea>
-        <button class="send">Send</button>
-      </div>
+      <form action="./send_mail.php" method="post">
+        <div class="text-box">
+          <textarea
+            name="message"
+            id="message"
+            class="text-area"
+            placeholder="Enter your anonymous message here..."
+            required
+          ></textarea>
+
+          <button type="submit" class="send">Send</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>

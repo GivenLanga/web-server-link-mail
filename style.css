@@ -22,11 +22,11 @@ nav {
 }
 .left-nav {
   font-size: 30px;
-  color: #fffc01;
+  color: #000000;
   padding: 10px;
 }
 .left-nav .nav-item:hover {
-  background-color: #fffc01;
+  background-color: #095d79;
   border-radius: 0.5rem;
   color: white;
   transform: scale(1.5);
@@ -34,7 +34,7 @@ nav {
   padding-bottom: 0.5rem;
 }
 body {
-  background-image: url(./assets/whistleblower.png);
+  background-image: url(./assets/backroundlogo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   /* background-color: #fffc01; */
@@ -106,6 +106,6 @@ h1 {
 .send:hover {
   opacity: 1;
   cursor: pointer;
-  background-color: #fffc01;
+  background-color: #095d79;
   scale: (1.1);
 }
